@@ -11,7 +11,7 @@ def post_message(token, channel, text):
     )
     print(response)
 
-myToken = "xoxb-2602302277041-2589725901827-CAnMYy7i5cm0HssljR6U8Kdm"
+myToken = "xoxb-2602302277041-2589725901827-Wwr9xiaHCwCZPkQy1lKaMlU8"
 post_message(myToken,"#bitcoin-alarm","processing")
 
 a = 1
