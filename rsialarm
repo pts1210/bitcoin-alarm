@@ -65,7 +65,7 @@ while True:
             post_message(myToken,"#bitcoin-alarm","KRW-BTC :" + str(round(rsi,3))) 
         elif rsi>65:
             post_message(myToken,"#bitcoin-alarm","KRW-BTC :" + str(round(rsi,3)))
-        time.sleep(1)
+        time.sleep(60)
       
 
     def stockrsi(symbol):
